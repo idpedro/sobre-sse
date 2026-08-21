@@ -1,0 +1,25 @@
+{
+  "name": "sobre-sse",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server/src/main.ts",
+  "scripts": {
+    "dev:server": "node --watch server/src/main.ts",
+    "start:server": "node server/src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.0.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
